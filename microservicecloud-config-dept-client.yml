@@ -13,6 +13,7 @@ mybatis:
    - classpath:mybatis/mapper/**/*.xml
 
 spring:
+  profiles: dev
   application:
     name: microservicecloud-dept
   datasource:
@@ -53,6 +54,7 @@ mybatis:
    - classpath:mybatis/mapper/**/*.xml
 
 spring:
+  profiles: test
   application:
     name: microservicecloud-dept
   datasource:
